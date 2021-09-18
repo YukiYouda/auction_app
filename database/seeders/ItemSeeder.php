@@ -21,7 +21,7 @@ class ItemSeeder extends Seeder
             'price' => 25000,
             'seller' => 'Taro',
             'email' => 'taro@example.com',
-            'image_url' => 'https://img21.shop-pro.jp/PA01349/729product128749782.jpg?cmsp_timestamp=20180305162210',
+            'image_url' => 'https://img21.shop-pro.jp/PA01349/729/product/128749782.jpg?cmsp_timestamp=20180305162210',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
@@ -33,7 +33,8 @@ class ItemSeeder extends Seeder
                 'price' => 18000,
                 'seller' => 'Jiro',
                 'email' => 'jiro@example.com',
-                'image_url' => 'https://smlycdn.akamaized.netdataproduct2/2e4e8cc92ab955a67a2d3aeb98eb5541475fd7ca3_l.jpg',
+                'image_url' =>
+                'https://smlycdn.akamaized.net/data/product2/2/e4e8cc92ab955a67a2d3aeb98eb5541475fd7ca3_l.jpg',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
@@ -43,7 +44,8 @@ class ItemSeeder extends Seeder
                 'price' => 18000,
                 'seller' => 'Teru',
                 'email' => 'teru@example.com',
-                'image_url' => 'http://image.rakuten.co.jpatmos-girlscabinet/reebok/v47514-1.jpg',
+                'image_url' =>
+                'http://image.rakuten.co.jp/atmos-girls/cabinet/reebok/v47514-1.jpg',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
             ]
