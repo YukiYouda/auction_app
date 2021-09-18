@@ -13,5 +13,7 @@
             <a href="/items/{{ $item->id }}"><li>{{  $item->name  }}</li></a>
         @endforeach
     </ul>
+
+    <a href="/items/create">出品する</a>
 </body>
 </html>
